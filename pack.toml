@@ -3,6 +3,11 @@ type = "local"
 path = "."
 ipkg = "idris2-Substrate.ipkg"
 
+[custom.all.idris2-Substrate-test]
+type = "local"
+path = "."
+ipkg = "idris2-Substrate-test.ipkg"
+
 [custom.all.idris2-Multiset]
 type = "local"
 path = "../idris2-Multiset"
@@ -12,3 +17,8 @@ ipkg = "idris2-Multiset.ipkg"
 type = "local"
 path = "../idris2-Chromogeometry"
 ipkg = "idris2-chromogeometry.ipkg"
+
+[custom.all.idris2-QuickCheck]
+type = "local"
+path = "../idris2-QuickCheck"
+ipkg = "idris2-QuickCheck.ipkg"

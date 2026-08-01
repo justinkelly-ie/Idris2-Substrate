@@ -1,0 +1,12 @@
+package idris2-Substrate-test
+version = 0.1.0
+authors = "Justin"
+
+depends = base, idris2-QuickCheck, idris2-Multiset, idris2-chromogeometry, idris2-Substrate
+
+sourcedir = "test"
+
+main = Main
+executable = substrate-test
+
+modules = Main
