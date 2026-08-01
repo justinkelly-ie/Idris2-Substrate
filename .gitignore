@@ -1,0 +1,5 @@
+build/
+*.ttc
+*.ttm
+__pycache__/
+.DS_Store

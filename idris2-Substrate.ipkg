@@ -1,0 +1,15 @@
+package idris2-Substrate
+version = 0.1.0
+authors = "Justin"
+
+depends = base, contrib, idris2-Multiset, idris2-chromogeometry
+
+sourcedir = "src"
+
+modules = Substrate.Core
+        , Substrate.Difference
+        , Substrate.Divergence
+        , Substrate.Laplacian
+        , Substrate.Hodge
+        , Substrate.Linear
+        , Substrate.Calculus

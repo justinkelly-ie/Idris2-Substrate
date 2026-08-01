@@ -1,0 +1,14 @@
+[custom.all.idris2-Substrate]
+type = "local"
+path = "."
+ipkg = "idris2-Substrate.ipkg"
+
+[custom.all.idris2-Multiset]
+type = "local"
+path = "../idris2-Multiset"
+ipkg = "idris2-Multiset.ipkg"
+
+[custom.all.idris2-chromogeometry]
+type = "local"
+path = "../idris2-Chromogeometry"
+ipkg = "idris2-chromogeometry.ipkg"
