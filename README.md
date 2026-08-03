@@ -14,10 +14,10 @@
 
 All topological concepts in `idris2-Substrate` are built on top of `idris2-Multiset` and `idris2-Chromogeometry`:
 
-- **Node / 0-Cell**: `Sing BoxInt node` — Vertex anchor coordinate.
-- **Pixel / 1-Cell**: `Pixel metric node` — Directed coordinate link.
-- **Substrate / Causal Graph**: `Multiset Integer (Geometry, Geometry)` — Directed edge multiset.
-- **Vexel / 0-Cochain**: `Multiset Integer (Geometry, Amplitude)` — Node amplitude/state vector multiset.
+- **Node / 0-Cell**: `BoxInt` / `Geometry` — Vertex coordinate (`BoxInt` scalar dimension or `Geometry = Pixel Blue BoxInt` node point).
+- **Edge / 1-Cell**: `(Geometry, Geometry)` — Directed coordinate edge in the causal substrate.
+- **Substrate / Causal Graph**: `Multiset Integer (Geometry, Geometry)` — Multiset of 1-cells (directed edges).
+- **Vexel / 0-Cochain**: `Multiset Integer (Geometry, Amplitude)` — 0-cochain mapping nodes to state amplitudes.
 - **Maxel / Operator**: `Multiset c (Pixel metric node)` — Operator matrix / plaquette loop.
 
 ---

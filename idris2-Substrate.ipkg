@@ -13,3 +13,6 @@ modules = Substrate.Core
         , Substrate.Hodge
         , Substrate.Linear
         , Substrate.Calculus
+        , Substrate.Composition
+        , Substrate.GaugeOperator
+        , Substrate.Twist
